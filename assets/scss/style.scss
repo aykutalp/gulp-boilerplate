@@ -1,0 +1,18 @@
+// Style.scss
+
+.example {
+    display: flex;
+    transition: all .5s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, black);
+}
+
+@keyframes MyAnimation {
+    0% { left: 0; }
+   50% { left: 200px; }
+  100% { left: 20px; }
+}
+
+.example.is-animating {
+  animation: MyAnimation 2s;
+}
