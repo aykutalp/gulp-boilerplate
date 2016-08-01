@@ -15,7 +15,6 @@ $ gulp
 **Gulp**
 
 1. Autoprefixer
-
 2. Concat
 3. Cssnano
 4. Rename
